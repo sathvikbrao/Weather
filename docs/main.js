@@ -1,8 +1,8 @@
-import 'docs/style.css';
+import './style.css';
 
-import { getWeather } from 'docs/weather.js';
+import { getWeather } from './weather';
 
-import { ICON_MAP } from 'docs/iconMap';
+import { ICON_MAP } from './iconMap';
 
 
 navigator.geolocation.getCurrentPosition(positionSuccess, positionError)
